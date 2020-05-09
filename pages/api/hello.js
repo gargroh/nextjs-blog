@@ -6,5 +6,5 @@ export default (req, res) => {
     count++;
   }
 
-  res.status(200).json({ text: "Hello" });
+  res.status(200).json({ text: "Hello World" });
 };
